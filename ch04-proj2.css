@@ -10,17 +10,12 @@ body {
     background-color: #e4e7eb;
     font-weight: 300;
 }
-h1 {
-    text-align: center;
-    font-weight: 600;
-    font-size: 42px;
-    padding: 10px 0;
-}
+
 .section{
     text-align: center;
 }
 
-.pricing-table {
+.pricing {
     width: 900px;
     margin-left: 30px;
     margin-top: 30px;
@@ -30,7 +25,7 @@ h1 {
 }
 
 
-.pricing-table header h1 {
+.pricing header h1 {
     text-align: center;
     font-size: 2.5em;
     font-weight: 600px;
@@ -58,7 +53,7 @@ h1 {
 
 }
 
-.features {
+.column-features {
     flex: 1;
     background-color: #1d5a46;
     display: flex;
@@ -67,7 +62,7 @@ h1 {
     padding: 5px;
 
 }
-.features h3 {
+.column-features h3 {
     font-size: 1.5em;
     padding: 20px;
     text-align: center;
@@ -80,8 +75,8 @@ h1 {
 }
 
 
-.plan-free {
-    font-size: 2.5em;
+.price-free {
+    font-size: 2.2rem;
     font-weight: 1000;
     background-color: rgb(131, 192, 157);
     width: 100%;
@@ -90,10 +85,10 @@ h1 {
 
 }
 
-.plan-standard {
+.price-standard {
     font-size: 2.5em;
     font-weight: 1000;
-    background-color: rgb(110, 21, 161);
+    background-color: rgb(110, 18, 159);
     color: white;
     width: 100%;
     text-align: center;
@@ -101,7 +96,7 @@ h1 {
 
 }
 
-.plan-professional {
+.price-professional {
     font-size: 2.5em;
     font-weight: 1000;
     background-color: rgb(238, 113, 11);
@@ -110,43 +105,43 @@ h1 {
     padding: 20px 0;
 
 }
-.a{
+.one{
     padding: 15px 15px;
     width: 100%;
     text-align: center;
 }
-.a span{
+.one span{
     font-weight: 900;
     text-align: center;
 }
-.a2{
+.two{
     padding: 15px 15px;
     background-color: rgb(202, 202, 202);
     width: 100%;
     text-align: center;
 }
-.a2 span{
+.two span{
     font-weight: 900;
     text-align: center;
 }
-.a3{
+.four{
     padding: 15px 15px;
     color: white;
     background-color: rgb(102, 133, 118);
     width: 100%;
     text-align: center;
 }
-.a3 span{
+.four span{
     font-weight: 900;
     text-align: center;
 }
-.a5{
+.three{
     padding: 15px 15px;
     width: 100%;
     text-align: center;
     color: white;
 }
-.a5 span{
+.three span{
     font-weight: 900;
     text-align: center;
 
@@ -160,25 +155,23 @@ ul{
     list-style: none;
     width: 100%;
 }
-.btn{
+.button{
     margin-top: 35px;
     padding: 15px;
+    text-color: white;
     background-color: rgb(44, 113, 145);
     width: 250px;
     text-align: center;
     border-radius:5px;
 
+
 }
-.btn a{
+.button one{
     color: white;
     text-decoration: none;
     font-weight: bold;
 
 }
-
-
-
-
 
 .bottom{
     background-color: #1d5a46;
@@ -188,7 +181,7 @@ ul{
     color: white;
     padding: 20px;
 }
-.a4 {
+.bottomsection {
     display: flex;
     align-items: center;
     margin-bottom: 8px;
@@ -198,17 +191,17 @@ ul{
     font-size: 2em;
     padding: 5px;
 }
-.aa{
+.hostplan{
     padding-bottom: 10px;
     padding-left: 5px;
 }
 .link{
-    color: rgb(130, 189, 228);
+    color: white;
     font-style: italic;
 }
-.a4 img {
-    width: 30px;
-    height: 30px;
+.bottomsection img {
+    width: 27px;
+    height: 27px;
     margin-right: 10px;
     vertical-align: middle;
 }
